@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/shield" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:text="@string/label" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/blackPanther"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/blackPanther" />
+
+        <Button
+            android:id="@+id/blackWidow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/blackWidow" />
+
+        <Button
+            android:id="@+id/hawkEye"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hawkEye" />
+
+        <Button
+            android:id="@+id/hulk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hulk" />
+
+        <Button
+            android:id="@+id/ironMan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ironMan" />
+
+        <Button
+            android:id="@+id/doctorStrange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/doctorStrange" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">jgj891_lab3</string>
+    <string name="label">S.H.I.E.L.D. Avenger Locator</string>
+    <string name="ironMan">Iron Man</string>
+    <string name="blackPanther">Black Panther</string>
+    <string name="blackWidow">Black Widow</string>
+    <string name="hawkEye">HawkEye</string>
+    <string name="hulk">Hulk</string>
+    <string name="doctorStrange">Doctor Strange</string>
+</resources>
